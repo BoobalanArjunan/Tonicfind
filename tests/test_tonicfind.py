@@ -360,9 +360,10 @@ def test_cli_reports_label_problems(tmp_path, capsys):
 
 
 def test_version(capsys):
+    from tonicfind import __version__
     with pytest.raises(SystemExit):
         main(["--version"])
-    assert "tonicfind 0.1.0a1" in capsys.readouterr().out
+    assert f"tonicfind {__version__}" in capsys.readouterr().out
 
 
 # ---------------------------------------------------------------- feature details
