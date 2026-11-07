@@ -1,0 +1,26 @@
+file,label_key,measured_key,verdict,reason,clarity,tuning_cents
+song_15_G_major.wav,G major,G major,PASS,label matches the audio,0.963,-0.8
+song_01_C_major.wav,C major,C major,PASS,label matches the audio,0.905,-0.8
+song_24_B_minor.wav,B minor,B minor,PASS,label matches the audio,0.96,-0.8
+song_19_A_major.wav,A major,A major,PASS,label matches the audio,0.931,-0.8
+song_07_Eb_major.wav,Eb major,Eb major,PASS,label matches the audio,0.882,-0.8
+song_06_D_minor.wav,D minor,D minor,PASS,label matches the audio,0.884,-0.8
+song_08_Eb_minor.wav,Eb minor,Eb minor,PASS,label matches the audio,0.889,-0.8
+song_11_F_major.wav,F major,F major,PASS,label matches the audio,0.921,-0.8
+song_23_B_major.wav,B major,B major,PASS,label matches the audio,0.93,-0.8
+song_21_Bb_major.wav,Bb major,Bb major,PASS,label matches the audio,0.941,-0.9
+song_05_D_major.wav,D major,D major,PASS,label matches the audio,0.895,-0.8
+song_03_CSharp_major.wav,C# major,C# major,PASS,label matches the audio,0.896,-0.8
+song_22_Bb_minor.wav,Bb minor,Bb minor,PASS,label matches the audio,0.927,-0.8
+song_04_CSharp_minor.wav,C# minor,C# minor,PASS,label matches the audio,0.879,-0.8
+song_18_Ab_minor.wav,Ab minor,Ab minor,PASS,label matches the audio,0.91,-0.8
+song_12_F_minor.wav,F minor,F minor,PASS,label matches the audio,0.909,-0.8
+song_20_A_minor.wav,A minor,A minor,PASS,label matches the audio,0.95,-0.8
+song_10_E_minor.wav,E minor,E minor,PASS,label matches the audio,0.893,-0.7
+song_25_Am_Camelot_8A.wav,8A,A minor,PASS,label matches the audio,0.964,-0.8
+song_16_G_minor.wav,G minor,G minor,PASS,label matches the audio,0.911,-0.8
+song_17_Ab_major.wav,Ab major,Ab major,PASS,label matches the audio,0.967,-0.7
+song_09_E_major.wav,E major,E major,PASS,label matches the audio,0.892,-0.8
+song_02_C_minor.wav,C minor,C minor,PASS,label matches the audio,0.908,-0.8
+song_14_FSharp_minor.wav,F# minor,F# minor,PASS,label matches the audio,0.897,-0.8
+song_13_FSharp_major.wav,F# major,F# major,PASS,label matches the audio,0.929,-0.9

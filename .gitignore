@@ -1,0 +1,14 @@
+__pycache__/
+*.egg-info/
+.pytest_cache/
+build/
+dist/
+.venv/
+*.wav
+*.flac
+*.mp3
+benchmark_audio/
+songs
+.DS_Store
+
+

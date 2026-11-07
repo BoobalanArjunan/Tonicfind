@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tonicfind"
+dynamic = ["version"]
+description = "Check that the key labels on your music files (C major, Am, 8A) match the audio."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.9"
+authors = [{ name = "Boobalan Arjunan" }]
+dependencies = ["numpy>=1.23", "scipy>=1.9", "soundfile>=0.12"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Multimedia :: Sound/Audio :: Analysis"
+]
+
+[project.urls]
+Homepage = "https://github.com/BoobalanArjunan/Tonicfind"
+Repository = "https://github.com/BoobalanArjunan/Tonicfind.git"
+Issues = "https://github.com/BoobalanArjunan/Tonicfind/issues"
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[project.scripts]
+tonicfind = "tonicfind.cli:main"
+
+[tool.setuptools.dynamic]
+version = { attr = "tonicfind._version.__version__" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
